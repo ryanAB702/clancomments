@@ -6,48 +6,59 @@ import re
 
 start_dir = ""
 
-interval_regx = re.compile("(\025\d+_\d+)")
+interval_regx = re.compile("(\x15\d+_\d+)")
 
 
 def parse_comments(clan_file):
     comments = []
     with open(clan_file, "rU") as file:
-        with open("test2.txt", "wb") as output:
+        with open("test4.txt", "wb") as output:
             last_buffer = None
-
-
 
             curr_index = 0
             for index, lines in enumerate(itertools.izip_longest(*[file]*7)):
-                temp_comment = [None, None, None] # (index, timestamp, comment)
-                output.write("glob_index: {}\n".format(index))
+                # temp_comment = [None, None, None] # (index, timestamp, comment)
+                output.write("\nglob_index: {}\n".format(index))
 
                 for line_index, line in enumerate(lines):
+                    temp_comment = [None, None, None] # (index, timestamp, comment)
                     if not line:
                         continue
                     curr_index = 7*index+line_index
                     output.write("real_index: {} ::   ".format(curr_index))
                     output.write(line)
 
+                    if curr_index == 49084:
+                            print "hello"
 
                     if line.startswith("%com:") or line.startswith("%xcom:"):
                         temp_comment[0] = curr_index
                         temp_comment[2] = line
                         temp_buffer = lines[0:line_index]
 
-                        print "curr_index: {}\ntemp_buffer: {}\n".format(curr_index, temp_buffer)
+                        output.write("curr_index: {}\ntemp_buffer: {}\n".format(curr_index, temp_buffer))
+                        print "curr_index: {}\ntemp_buffer: {}".format(curr_index, temp_buffer)
+
+
 
                         interval_string = reverse_interval_lookup(temp_buffer)
                         if interval_string is None:
+
                             interval_string = reverse_interval_lookup(last_buffer)
 
+
                         temp_comment[1] = interval_string
+                        output.write("temp_comment: {}\n".format(temp_comment))
+
+                        print "temp_comment: {}\n".format(temp_comment)
+
                         comments.append(temp_comment)
 
                 last_buffer = lines
     return comments
 
 def reverse_interval_lookup(buffer):
+    print "buffer_being_scanned: {}".format(buffer)
     temp_interval_string = None
     for i, element in reversed(list(enumerate(buffer))):
         interval_regx_result = interval_regx.search(element)
@@ -56,7 +67,7 @@ def reverse_interval_lookup(buffer):
         else:
             temp_interval_string = interval_regx_result.group()\
                                                        .replace("\025", "")
-    return temp_interval_string
+            return temp_interval_string
 
 
 def output_comment_csv(comments):
