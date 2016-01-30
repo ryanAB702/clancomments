@@ -14,6 +14,7 @@ def parse_comments(clan_file):
     comments = []
     with open(clan_file, "rU") as file:
         filename = os.path.split(clan_file)[1]
+        print "Processing {}......".format(clan_file)
         last_buffer = None
 
         curr_index = 0
@@ -24,7 +25,7 @@ def parse_comments(clan_file):
                     continue
 
                 curr_index = 7*index+line_index
-
+                #print "curr_index: {}".format(curr_index)
                 if line.startswith("%com:") or line.startswith("%xcom:"):
                     temp_comment[0] = filename
                     temp_comment[1] = curr_index
@@ -53,7 +54,7 @@ def reverse_interval_lookup(buffer):
             return temp_interval_string
 
 def output_comment_csv(comments):
-    with open("filtered_comments_complete.csv", "wb") as file:
+    with open("filtered_comments_complete_subjectfiles.csv", "wb") as file:
         writer = csv.writer(file)
         writer.writerow(["filename", "line_num", "timestamp", "comment"])
         writer.writerows(comments)
@@ -71,19 +72,21 @@ def filter_comments(comments):
 def walk_tree():
     global comments
     for root, dirs, files in os.walk(start_dir):
-        #if os.path.split(root)[1] == "Audio_Annotation":
-        for file in files:
-            if "_newclan_merged.cha" in file or "_final.cha" in file:
-                all_comments = parse_comments(os.path.join(root, file))
-                filtered_comments = filter_comments(all_comments)
-                comments += filtered_comments
-
+        if os.path.split(root)[1] == "Audio_Annotation":
+            for file in files:
+                if "_newclan_merged.cha" in file or "_final.cha" in file:
+                    try:
+                        all_comments = parse_comments(os.path.join(root, file))
+                        filtered_comments = filter_comments(all_comments)
+                        comments += filtered_comments
+                    except Exception:
+                        print "File: {}      was a problem".format(file)
 
 if __name__ == "__main__":
 
     start_dir = sys.argv[1]
 
     walk_tree()
-    # all_comments = parse_comments("data/15_10_coderSM_final.cha")
+    # all_comments = parse_comments("data/14_09_newclan_merged.cha")
     # filtered_comments = filter_comments(all_comments)
     output_comment_csv(comments)
