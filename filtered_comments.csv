@@ -1,0 +1,55 @@
+line_num,timestamp,comment
+33,0_840,"%xcom:	subregion 1 of 5 starts at 1 -- previous timestamp adjusted: was 840
+"
+2346,1344350_1345150,"%com:	begin skip
+"
+4543,2626480_2627370,"%xcom:	end skip
+"
+5985,3599920_3600000,"%xcom:	subregion 1 of 5 ends at 3600000 -- previous timestamp adjusted: was 3601920
+"
+8508,5698750_5700000,"%xcom:	subregion 2 of 5 starts at 5700000 -- previous timestamp adjusted: was 5700790
+"
+11277,7701990_7702870,"%com:	begin personal information: grandparent's address
+"
+11293,7708330_7709540,"%com:	end personal information: grandparent's address
+"
+12661,9285960_9300000,"%xcom:	subregion 2 of 5 ends at 9300000 -- previous timestamp adjusted: was 9310310
+"
+17377,14803090_14809730,"%xcom:	silence 1 of 2 starts at 14809730.0 -- previous timestamp adjusted: was 14939270
+"
+17522,15344090_15346032,"%xcom:	silence 1 of 2 ends at 15346032.733 -- previous timestamp adjusted: was 15346310
+"
+17915,15599310_15600000,"%xcom:	subregion 3 of 5 starts at 15600000 -- previous timestamp adjusted: was 15602290
+"
+20992,17471750_17472750,"%xcom:	begin personal information: first and last name
+"
+21005,17477600_17479710,"%com:	end personal information: first and last name
+"
+21767,18011060_18013020,"%com:	begin skip
+"
+23447,19199930_19200000,"%xcom:	end skip
+"
+23448,19199930_19200000,"%xcom:	subregion 3 of 5 ends at 19200000 -- previous timestamp adjusted: was 19204630
+"
+26309,21012990_21016531,"%xcom:	silence 2 of 2 starts at 21016531.941 -- previous timestamp adjusted: was 27837730
+"
+26337,28820490_28821588,"%xcom:	silence 2 of 2 ends at 28821588.743 -- previous timestamp adjusted: was 28822350
+"
+27313,29399820_29400000,"%xcom:	subregion 4 of 5 starts at 29400000 -- previous timestamp adjusted: was 29400750. lowest ranked region; skip unless necessary
+"
+27438,29467530_29468330,"%com:	begin extra minutes coded.
+"
+28500,30089050_30092340,"%xcom:	end 10 extra minutes coded. More coded after the car ride.
+"
+28501,30089050_30092340,"%com:	begin car ride
+"
+29424,30863080_30863900,"%com:	end car ride
+"
+31454,32105670_32107250,"%com:	end extra minutes coded after the car ride.
+"
+33032,32998780_33000000,"%xcom:	subregion 4 of 5 ends at 33000000 -- previous timestamp adjusted: was 33002610. lowest ranked region; skip unless necessary
+"
+38136,36599270_36600000,"%xcom:	subregion 5 of 5 starts at 36600000 -- previous timestamp adjusted: was 36600520
+"
+44953,40199520_40200000,"%xcom:	subregion 5 of 5 ends at 40200000 -- previous timestamp adjusted: was 40200320
+"

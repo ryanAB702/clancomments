@@ -71,10 +71,20 @@ def reverse_interval_lookup(buffer):
 
 
 def output_comment_csv(comments):
-    with open("comments.csv", "wb") as file:
+    with open("filtered_comments.csv", "wb") as file:
         writer = csv.writer(file)
         writer.writerow(["line_num", "timestamp", "comment"])
         writer.writerows(comments)
+
+def filter_comments(comments):
+    filtered_comments = []
+
+    for comment in comments:
+        if "|" in comment[2]:
+            continue
+        else:
+            filtered_comments.append(comment)
+    return filtered_comments
 
 def walk_tree():
     for root, dirs, files in os.walk(start_dir):
@@ -89,5 +99,6 @@ if __name__ == "__main__":
     start_dir = sys.argv[1]
 
     #walk_tree()
-    comments = parse_comments("data/15_10_coderSM_final.cha")
-    output_comment_csv(comments)
+    all_comments = parse_comments("data/15_10_coderSM_final.cha")
+    filtered_comments = filter_comments(all_comments)
+    output_comment_csv(filtered_comments)
