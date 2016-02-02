@@ -29,14 +29,30 @@ def count_all_files():
 
 def find_bak_files():
     with open(filter_set_file, "rU") as file:
-        for line in file:
-            if ".bak" in line:
-                print line
+        reader = csv.reader(file)
+        reader.next()
+        with open("bak_removed.csv", "wb") as output:
+            writer = csv.writer(output)
+            writer.writerow(["filename","line_num","timestamp","comment"])
+            for row in reader:
+                if ".bak" in row[0]:
+                    print row
+                    continue
+                else:
+                    writer.writerow(row)
+
+def filter_spacing():
+    print csv_file
+    with open(csv_file, "rU") as file:
+        reader = csv.reader(file)
+        reader.next()
+        for row in reader:
+            print row
 
 if __name__ == "__main__":
-
-    csv_file = sys.argv[1]
-    find_duplicates()
-    count_all_files()
-    #filter_set_file = sys.argv[1]
-    #find_bak_files()
+    #csv_file = sys.argv[1]
+    #filter_spacing()
+    #find_duplicates()
+    #count_all_files()
+    filter_set_file = sys.argv[1]
+    find_bak_files()
