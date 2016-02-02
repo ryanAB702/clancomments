@@ -11,6 +11,17 @@ all_files = []
 file_set = None
 counter = None
 
+# bunch of misspelled versions of "personal"
+personal_string = ["personal",
+                   "prsonal",
+                   "pwrsonal",
+                   "persanal",
+                   "personl",
+                   "pursanal",
+                   "pesonal"]
+
+personal_clans = []
+
 def find_duplicates():
     with open(csv_file, "rU") as file:
         with open("filter_set.txt", "wb") as output:
@@ -42,17 +53,35 @@ def find_bak_files():
                     writer.writerow(row)
 
 def filter_spacing():
-    print csv_file
     with open(csv_file, "rU") as file:
         reader = csv.reader(file)
         reader.next()
         for row in reader:
             print row
 
+def find_personal_info():
+    with open(csv_file, "rU") as input:
+        reader = csv.reader(input)
+        reader.next()
+        with open("clan_personalinfo_comments.csv", "wb") as output:
+            writer = csv.writer(output)
+            writer.writerow(["file", "linenum", "timestamp", "comment"])
+            for row in reader:
+                if any(x in row[3] for x in personal_string):
+                    writer.writerow(row)
+                    personal_clans.append(row[0])
+            with open("list_personal_clanfiles.csv", "wb") as clan_list:
+                clan_list.write("file\n")
+                for file in set(personal_clans):
+                    clan_list.write(file+"\n")
+
 if __name__ == "__main__":
-    #csv_file = sys.argv[1]
+    csv_file = sys.argv[1]
+
     #filter_spacing()
     #find_duplicates()
     #count_all_files()
-    filter_set_file = sys.argv[1]
-    find_bak_files()
+    #filter_set_file = sys.argv[1]
+    #find_bak_files()
+
+    find_personal_info()
