@@ -22,6 +22,11 @@ personal_string = ["personal",
 
 personal_clans = []
 
+personal_dictionary = []
+def init_personalinfo_dictionary():
+    for i in range(47):
+        personal_dictionary.append(["no-pi"]*13)
+
 def find_duplicates():
     with open(csv_file, "rU") as file:
         with open("filter_set.txt", "wb") as output:
@@ -75,13 +80,58 @@ def find_personal_info():
                 for file in set(personal_clans):
                     clan_list.write(file+"\n")
 
+def generate_nopersonalinfo_files():
+    for file in set(personal_clans):
+        prefix = file[0:5].split("_")
+        print "original: {}".format(prefix)
+        prefix = [int(prefix[0]), prefix_to_array_index(prefix[1])]
+        print "new: {}".format(prefix)
+
+        personal_dictionary[prefix[0]][prefix[1]] = "**PI**"
+    with open("clan_personalinfo_table.csv", "wb") as table:
+        writer = csv.writer(table)
+        writer.writerow(["subject-visit", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18"])
+        for index, subject in enumerate(personal_dictionary[1:]):
+            writer.writerow([index+1] + subject)
+
+def prefix_to_array_index(prefix):
+    if prefix == '06':
+        return 0
+    elif prefix == '07':
+        return 1
+    elif prefix == '08':
+        return 2
+    elif prefix == '09':
+        return 3
+    elif prefix == '10':
+        return 4
+    elif prefix == '11':
+        return 5
+    elif prefix == '12':
+        return 6
+    elif prefix == '13':
+        return 7
+    elif prefix == '14':
+        return 8
+    elif prefix == '15':
+        return 9
+    elif prefix == '16':
+        return 10
+    elif prefix == '17':
+        return 11
+    elif prefix == '18':
+        return 12
+
+
+
 if __name__ == "__main__":
     csv_file = sys.argv[1]
-
+    print "hello"
     #filter_spacing()
     #find_duplicates()
     #count_all_files()
     #filter_set_file = sys.argv[1]
     #find_bak_files()
-
+    init_personalinfo_dictionary()
     find_personal_info()
+    generate_nopersonalinfo_files()
