@@ -18,7 +18,9 @@ personal_string = ["personal",
                    "persanal",
                    "personl",
                    "pursanal",
-                   "pesonal"]
+                   "pesonal",
+                   "PI",
+                   "p.i."]
 
 personal_clans = []
 
@@ -84,17 +86,51 @@ def generate_nopersonalinfo_files():
     for file in set(personal_clans):
         prefix = file[0:5].split("_")
         print "original: {}".format(prefix)
-        prefix = [int(prefix[0]), prefix_to_array_index(prefix[1])]
+        prefix = [int(prefix[0]), prefix_to_array(prefix[1])]
         print "new: {}".format(prefix)
 
         personal_dictionary[prefix[0]][prefix[1]] = "**PI**"
     with open("clan_personalinfo_table.csv", "wb") as table:
         writer = csv.writer(table)
-        writer.writerow(["subject-visit", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18"])
+        writer.writerow(["subject-visit", "06", "07", "08", "09", "10",
+                         "11", "12", "13", "14", "15", "16", "17", "18"])
         for index, subject in enumerate(personal_dictionary[1:]):
             writer.writerow([index+1] + subject)
 
-def prefix_to_array_index(prefix):
+def check_if_file_exists(prefix):
+    for file in list_of_all_files():
+        if prefix in file:
+            return True
+    return False
+
+def fill_pidictionary_with_nofile():
+    subj_prefix = ""
+    visit_prefix = ""
+
+    nofile_count = 0
+    all_files = list_of_all_files()
+    for i, subject in enumerate(personal_dictionary[1:]):
+        for j, visit in enumerate(subject):
+            if i <9:
+                subj_prefix = '0'+str(i+1)
+            else:
+                subj_prefix = str(i+1)
+
+            visit_prefix = str(array_to_prefix(j))
+
+            prefix = subj_prefix+"_"+visit_prefix
+
+
+            if not any(prefix in x for x in all_files):
+                print "prefix: {}".format(subj_prefix+"_"+visit_prefix)
+                print "no file"
+                personal_dictionary[i][j] = "NO-FILE"
+                nofile_count += 1
+
+    print "\n\nnofile_count: {}".format(nofile_count)
+
+
+def prefix_to_array(prefix):
     if prefix == '06':
         return 0
     elif prefix == '07':
@@ -122,11 +158,50 @@ def prefix_to_array_index(prefix):
     elif prefix == '18':
         return 12
 
+def array_to_prefix(array):
+    if array == 0:
+        return '06'
+    elif array == 1:
+        return '07'
+    elif array == 2:
+        return '08'
+    elif array == 3:
+        return '09'
+    elif array == 4:
+        return '10'
+    elif array == 5:
+        return '11'
+    elif array == 6:
+        return '12'
+    elif array == 7:
+        return '13'
+    elif array == 8:
+        return '14'
+    elif array == 9:
+        return '15'
+    elif array == 10:
+        return '16'
+    elif array == 11:
+        return '17'
+    elif array == 12:
+        return '18'
+
+def list_of_all_files():
+    files = []
+    with open(csv_file, "rU") as file:
+        reader = csv.reader(file)
+        reader.next()
+        for row in reader:
+            files.append(row[0])
+
+    return set(files)
 
 
 if __name__ == "__main__":
     csv_file = sys.argv[1]
-    print "hello"
+    all_files = list_of_all_files()
+    print all_files
+    print len(all_files)
     #filter_spacing()
     #find_duplicates()
     #count_all_files()
@@ -134,4 +209,5 @@ if __name__ == "__main__":
     #find_bak_files()
     init_personalinfo_dictionary()
     find_personal_info()
+    fill_pidictionary_with_nofile()
     generate_nopersonalinfo_files()
