@@ -110,6 +110,7 @@ def fill_pidictionary_with_nofile():
     nofile_count = 0
     all_files = list_of_all_files()
     for i, subject in enumerate(personal_dictionary[1:]):
+        print "i: {}".format(i)
         for j, visit in enumerate(subject):
             if i <9:
                 subj_prefix = '0'+str(i+1)
@@ -124,7 +125,7 @@ def fill_pidictionary_with_nofile():
             if not any(prefix in x for x in all_files):
                 print "prefix: {}".format(subj_prefix+"_"+visit_prefix)
                 print "no file"
-                personal_dictionary[i][j] = "NO-FILE"
+                personal_dictionary[i+1][j] = "NO-FILE"
                 nofile_count += 1
 
     print "\n\nnofile_count: {}".format(nofile_count)
