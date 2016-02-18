@@ -1,0 +1,825 @@
+filename,line_num,timestamp,comment
+03_10_newclan_merged.cha,33,390_770,"%xcom:	subregion 1 of 5 starts at 770 -- previous timestamp adjusted: was 770
+"
+03_10_newclan_merged.cha,568,247120_248320,"%xcom:	train engine
+"
+03_10_newclan_merged.cha,1458,670560_673260,"%xcom:	baby playing with xylophone
+"
+03_10_newclan_merged.cha,2479,1147230_1148230,"%xcom:	baby playing with fake food
+"
+03_10_newclan_merged.cha,4620,2703190_2704170,"%xcom:	twinkle twinkle little star
+"
+03_10_newclan_merged.cha,6059,3486380_3487850,"%xcom:	sounds like baby is trying to imitate sister yelling ""daddy!"" by
+"
+03_10_newclan_merged.cha,6306,3599270_3600000,"%xcom:	subregion 1 of 5 ends at 3600000 -- previous timestamp adjusted: was 3601670
+"
+03_10_newclan_merged.cha,10006,5699830_5700000,"%xcom:	subregion 2 of 5 starts at 5700000 -- previous timestamp adjusted: was 5700840
+"
+03_10_newclan_merged.cha,11508,6476400_6478030,"%xcom:	refers to Goldfish crackers
+"
+03_10_newclan_merged.cha,13985,7653490_7654490,"%xcom:	name of stuffed animal snowman
+"
+03_10_newclan_merged.cha,15757,8804560_8806510,"%xcom:	filling refers to cake filling
+"
+03_10_newclan_merged.cha,16892,9299280_9300000,"%xcom:	subregion 2 of 5 ends at 9300000 -- previous timestamp adjusted: was 9300200
+"
+03_10_newclan_merged.cha,16895,9300200_9300000,"%xcom:	subregion 3 of 5 starts at 9300000 -- previous timestamp adjusted: was 9301200. lowest ranked region; skip unless necessary
+"
+03_10_newclan_merged.cha,16896,9300200_9300000,"%xcom:	extra region 21 minutes begins
+"
+03_10_newclan_merged.cha,19306,10560840_10562020,"%xcom:	extra region 21 minutes end
+"
+03_10_newclan_merged.cha,22437,12899450_12900000,"%xcom:	subregion 3 of 5 ends at 12900000 -- previous timestamp adjusted: was 12900250. lowest ranked region; skip unless necessary
+"
+03_10_newclan_merged.cha,29078,19478130_19492187,"%xcom:	silence 1 of 2 starts at 19492187.5 -- previous timestamp adjusted: was 19568470
+"
+03_10_newclan_merged.cha,30920,25724740_25725520,"%xcom:	silence 1 of 2 ends at 25725520.0 -- previous timestamp adjusted: was 25735010
+"
+03_10_newclan_merged.cha,31526,26098650_26100000,"%xcom:	subregion 4 of 5 starts at 26100000 -- previous timestamp adjusted: was 26100410
+"
+03_10_newclan_merged.cha,34557,27874430_27886270,"%xcom:	begin skip: baby in stroller
+"
+03_10_newclan_merged.cha,35332,28641850_28642860,"%xcom:	end skip
+"
+03_10_newclan_merged.cha,36629,29699700_29700000,"%xcom:	subregion 4 of 5 ends at 29700000 -- previous timestamp adjusted: was 29700500
+"
+03_10_newclan_merged.cha,48401,38399360_38400000,"%xcom:	subregion 5 of 5 starts at 38400000 -- previous timestamp adjusted: was 38400360
+"
+03_10_newclan_merged.cha,49764,39231360_39257000,"%xcom:	referring to beehive
+"
+03_10_newclan_merged.cha,51976,40805340_40806180,"%xcom:	begin skip
+"
+03_10_newclan_merged.cha,52686,41295980_41296780,"%xcom:	end skip
+"
+03_10_newclan_merged.cha,53814,41994050_42000000,"%xcom:	subregion 5 of 5 ends at 42000000 -- previous timestamp adjusted: was 42000170
+"
+03_10_newclan_merged.cha,54132,42318270_42330843,"%xcom:	silence 2 of 2 starts at 42330843.572 -- previous timestamp adjusted: was 43636990
+"
+03_10_newclan_merged.cha,54543,57584730_57599990,"%xcom:	silence 2 of 2 ends at 57600140.0 -- previous timestamp adjusted: was 57599990
+"
+03_10_newclan_merged.cha,54545,57584730_57599990,"%xcom:	silence 2 of 2 ends at 57600140.0 -- previous timestamp adjusted: was 57599990
+"
+03_10_newclan_merged.cha,54547,57584730_57599990,"%xcom:	silence 2 of 2 ends at 57600140.0 -- previous timestamp adjusted: was 57599990
+"
+07_10_newclan_merged.cha,31,0_800,"%xcom:	subregion 1 of 5 starts at 800 -- previous timestamp adjusted: was 800
+"
+07_10_newclan_merged.cha,2069,1196760_1198380,"%xcom:	made of cups not a real hat
+"
+07_10_newclan_merged.cha,2940,1738870_1740510,"%xcom:	first word: mama
+"
+07_10_newclan_merged.cha,6100,3598180_3600000,"%xcom:	subregion 1 of 5 ends at 3600000 -- previous timestamp adjusted: was 3600280
+"
+07_10_newclan_merged.cha,9988,6207400_6207502,"%xcom:	silence 1 of 4 starts at 6207502.021 -- previous timestamp adjusted: was 6208220
+"
+07_10_newclan_merged.cha,10774,8557040_8558118,"%xcom:	silence 1 of 4 ends at 8558118.454 -- previous timestamp adjusted: was 8558510
+"
+07_10_newclan_merged.cha,11455,8997000_9000000,"%xcom:	subregion 2 of 5 starts at 9000000 -- previous timestamp adjusted: was 9002120
+"
+07_10_newclan_merged.cha,17475,12595980_12600000,"%xcom:	subregion 2 of 5 ends at 12600000 -- previous timestamp adjusted: was 12602620
+"
+07_10_newclan_merged.cha,19338,13799790_13800000,"%xcom:	subregion 3 of 5 starts at 13800000 -- previous timestamp adjusted: was 13801300. lowest ranked region; skip unless necessary
+"
+07_10_newclan_merged.cha,25260,17398560_17400000,"%xcom:	subregion 3 of 5 ends at 17400000 -- previous timestamp adjusted: was 17401010. lowest ranked region; skip unless necessary
+"
+07_10_newclan_merged.cha,25263,17401010_17400000,"%xcom:	subregion 4 of 5 starts at 17400000 -- previous timestamp adjusted: was 17403520
+"
+07_10_newclan_merged.cha,27675,18889670_18891390,"%xcom:	begin pesonal information: full name of other adult
+"
+07_10_newclan_merged.cha,27679,18891390_18893460,"%xcom:	end personal information
+"
+07_10_newclan_merged.cha,29346,19781460_19783760,"%xcom:	personal information start (possible - bashing local business)
+"
+07_10_newclan_merged.cha,29352,19789470_19790270,"%xcom:	end
+"
+07_10_newclan_merged.cha,29624,19941100_19941900,"%xcom:	as in coins
+"
+07_10_newclan_merged.cha,31439,20999410_21000220,"%xcom:	subregion 4 of 5 ends at 21000000 -- previous timestamp adjusted: was 21000220
+"
+07_10_newclan_merged.cha,35499,23451450_23454640,"%xcom:	silence 2 of 4 starts at 23454640.325 -- previous timestamp adjusted: was 23455790
+"
+07_10_newclan_merged.cha,36383,25957250_25957642,"%xcom:	silence 2 of 4 ends at 25957642.334 -- previous timestamp adjusted: was 25958510
+"
+07_10_newclan_merged.cha,40419,30563540_30600000,"%xcom:	subregion 5 of 5 starts at 30600000 -- previous timestamp adjusted: was 30627790
+"
+07_10_newclan_merged.cha,42544,33307000_33307980,"%xcom:	start personal information: adult name
+"
+07_10_newclan_merged.cha,42552,33310010_33311080,"%xcom:	end
+"
+07_10_newclan_merged.cha,42875,33553670_33554270,"%xcom:	personal information starts: other adult name
+"
+07_10_newclan_merged.cha,42881,33556970_33557570,"%xcom:	end
+"
+07_10_newclan_merged.cha,42887,33559360_33561020,"%xcom:	start personal information: other adult name
+"
+07_10_newclan_merged.cha,42897,33568210_33569400,"%xcom:	end
+"
+07_10_newclan_merged.cha,43552,34197570_34200000,"%xcom:	subregion 5 of 5 ends at 34200000 -- previous timestamp adjusted: was 34210610
+"
+07_10_newclan_merged.cha,45523,36373840_36374807,"%xcom:	silence 3 of 4 starts at 36374807.78 -- previous timestamp adjusted: was 36375900
+"
+07_10_newclan_merged.cha,47962,42496430_42497160,"%xcom:	silence 3 of 4 ends at 42497160.0 -- previous timestamp adjusted: was 42499940
+"
+07_10_newclan_merged.cha,47964,42496430_42497160,"%xcom:	silence 3 of 4 ends at 42497160.0 -- previous timestamp adjusted: was 42499940
+"
+07_10_newclan_merged.cha,47966,42496430_42497160,"%xcom:	silence 3 of 4 ends at 42497160.0 -- previous timestamp adjusted: was 42499940
+"
+07_10_newclan_merged.cha,47968,42496430_42497160,"%xcom:	silence 3 of 4 ends at 42497160.0 -- previous timestamp adjusted: was 42499940
+"
+14_09_newclan_merged.cha,32,380_1220,"%xcom:	subregion 1 of 5 starts at 1220 -- previous timestamp adjusted: was 1220
+"
+14_09_newclan_merged.cha,170,90080_92760,"%xcom:	first word: duck(?)
+"
+14_09_newclan_merged.cha,4952,2555050_2556600,"%xcom:	first word: mama
+"
+14_09_newclan_merged.cha,6629,3412520_3413330,"%xcom:	begin skip
+"
+14_09_newclan_merged.cha,6998,3597910_3606750,"%xcom:	subregion 1 of 5 ends at 3600000 -- previous timestamp adjusted: was 3606750
+"
+14_09_newclan_merged.cha,6999,3597910_3606750,"%xcom:	end skip
+"
+14_09_newclan_merged.cha,7026,3617310_3617497,"%xcom:	silence 1 of 3 starts at 3617497.885 -- previous timestamp adjusted: was 3621620
+"
+14_09_newclan_merged.cha,11134,15504270_15600000,"%xcom:	subregion 2 of 5 starts at 15600000 -- previous timestamp adjusted: was 15627450 [contains silent region: [3617497.885, 15642040.0] ]
+"
+14_09_newclan_merged.cha,11155,15641550_15642040,"%xcom:	silence 1 of 3 ends at 15642040.0 -- previous timestamp adjusted: was 15646210
+"
+14_09_newclan_merged.cha,12687,16583290_16584890,"%xcom:	begin skip: mom is showering
+"
+14_09_newclan_merged.cha,12839,16731340_16734520,"%xcom:	end skip
+"
+14_09_newclan_merged.cha,12846,16738060_16739020,"%xcom:	begin skip
+"
+14_09_newclan_merged.cha,13015,16860240_16861110,"%xcom:	end skip
+"
+14_09_newclan_merged.cha,14063,17469790_17471010,"%xcom:	begin skip
+"
+14_09_newclan_merged.cha,14493,17711520_17713350,"%xcom:	end skip
+"
+14_09_newclan_merged.cha,16766,19052720_19056900,"%xcom:	not sure who this is speaking, neighbor maybe
+"
+14_09_newclan_merged.cha,16944,19199870_19200000,"%xcom:	subregion 2 of 5 ends at 19200000 -- previous timestamp adjusted: was 19200480
+"
+14_09_newclan_merged.cha,22626,23099150_23100000,"%xcom:	subregion 3 of 5 starts at 23100000 -- previous timestamp adjusted: was 23100200
+"
+14_09_newclan_merged.cha,28223,26696740_26700000,"%xcom:	subregion 3 of 5 ends at 26700000 -- previous timestamp adjusted: was 26700000
+"
+14_09_newclan_merged.cha,31398,30445680_30447845,"%xcom:	silence 2 of 3 starts at 30447845.119 -- previous timestamp adjusted: was 30448420
+"
+14_09_newclan_merged.cha,32821,31910150_31910860,"%xcom:	silence 2 of 3 ends at 31910860.823 -- previous timestamp adjusted: was 31910980
+"
+14_09_newclan_merged.cha,33578,32398720_32400000,"%xcom:	subregion 4 of 5 starts at 32400000 -- previous timestamp adjusted: was 32400350
+"
+14_09_newclan_merged.cha,39314,35989370_36000000,"%xcom:	subregion 4 of 5 ends at 36000000 -- previous timestamp adjusted: was 36003660
+"
+14_09_newclan_merged.cha,44193,41699590_41700000,"%xcom:	subregion 5 of 5 starts at 41700000 -- previous timestamp adjusted: was 41700210. lowest ranked region; skip unless necessary
+"
+14_09_newclan_merged.cha,50057,45298890_45300000,"%xcom:	subregion 5 of 5 ends at 45300000 -- previous timestamp adjusted: was 45309180. lowest ranked region; skip unless necessary
+"
+14_09_newclan_merged.cha,53269,53380870_53407697,"%xcom:	silence 3 of 3 starts at 53407697.052 -- previous timestamp adjusted: was 53410270
+"
+14_09_newclan_merged.cha,53645,57493640_57599990,"%xcom:	silence 3 of 3 ends at 57600140.0 -- previous timestamp adjusted: was 57599990
+"
+14_09_newclan_merged.cha,53647,57493640_57599990,"%xcom:	silence 3 of 3 ends at 57600140.0 -- previous timestamp adjusted: was 57599990
+"
+14_09_newclan_merged.cha,53649,57493640_57599990,"%xcom:	silence 3 of 3 ends at 57600140.0 -- previous timestamp adjusted: was 57599990
+"
+15_09_newclan_merged.cha,31,0_1470,"%xcom:	subregion 1 of 5 starts at 1470 -- previous timestamp adjusted: was 1470. lowest ranked region; skip unless necessary
+"
+15_09_newclan_merged.cha,7092,3599340_3600000,"%xcom:	subregion 1 of 5 ends at 3600000 -- previous timestamp adjusted: was 3600140. lowest ranked region; skip unless necessary
+"
+15_09_newclan_merged.cha,7547,3899360_3900160,"%xcom:	region 2 of 5 starts at 3900000 -- previous timestamp adjusted: was 3900160 [contains silent region: [7238455.344, 13441600.924] ]
+"
+15_09_newclan_merged.cha,13250,6865410_6865610,"%xcom:	skip starts
+"
+15_09_newclan_merged.cha,13808,7229940_7238455,"%xcom:	silence 1 of 4 starts at 7238455.344 -- previous timestamp adjusted: was 7243890
+"
+15_09_newclan_merged.cha,13978,7411880_7518450,"%xcom:	subregion 2 of 5 ends at 7500000 -- previous timestamp adjusted: was 7518450 [contains silent region: [7238455.344, 13441600.924] ]
+"
+15_09_newclan_merged.cha,13979,7411880_7518450,"%xcom:	skip ends
+"
+15_09_newclan_merged.cha,14664,13439560_13441600,"%xcom:	silence 1 of 4 ends at 13441600.924 -- previous timestamp adjusted: was 13442480
+"
+15_09_newclan_merged.cha,14758,13499940_13500000,"%xcom:	subregion 3 of 5 starts at 13500000 -- previous timestamp adjusted: was 13501640
+"
+15_09_newclan_merged.cha,14761,13501640_13502640,"%xcom:	start skip
+"
+15_09_newclan_merged.cha,15811,14153270_14154220,"%xcom:	end skip
+"
+15_09_newclan_merged.cha,18744,15755580_15758570,"%xcom:	first word: ba refering to bottle
+"
+15_09_newclan_merged.cha,19482,16128090_16129750,"%xcom:	refers to muscial instrument
+"
+15_09_newclan_merged.cha,21304,17097840_17100300,"%xcom:	subregion 3 of 5 ends at 17100000 -- previous timestamp adjusted: was 17100300
+"
+15_09_newclan_merged.cha,24664,19799440_19800000,"%xcom:	subregion 4 of 5 starts at 19800000 -- previous timestamp adjusted: was 19800960 [contains silent region: [23189913.651, 26127220.709] ]
+"
+15_09_newclan_merged.cha,28549,21968090_21968920,"%xcom:	silence starts
+"
+15_09_newclan_merged.cha,30065,23102790_23105520,"%xcom:	silence ends
+"
+15_09_newclan_merged.cha,30216,23187800_23189913,"%xcom:	silence 2 of 4 starts at 23189913.651 -- previous timestamp adjusted: was 23190610
+"
+15_09_newclan_merged.cha,30382,23373870_23400000,"%xcom:	subregion 4 of 5 ends at 23400000 -- previous timestamp adjusted: was 23463560 [contains silent region: [23189913.651, 26127220.709] ]
+"
+15_09_newclan_merged.cha,30545,26127020_26127220,"%xcom:	silence 2 of 4 ends at 26127220.709 -- previous timestamp adjusted: was 26127840
+"
+15_09_newclan_merged.cha,37021,31797850_31800000,"%xcom:	subregion 5 of 5 starts at 31800000 -- previous timestamp adjusted: was 31804770
+"
+15_09_newclan_merged.cha,37502,32120470_32127260,"%xcom:	refering to fingers?
+"
+15_09_newclan_merged.cha,44254,35399860_35400000,"%xcom:	subregion 5 of 5 ends at 35400000 -- previous timestamp adjusted: was 35400690
+"
+15_09_newclan_merged.cha,54933,41518110_41519381,"%xcom:	silence 3 of 4 starts at 41519381.105 -- previous timestamp adjusted: was 41540410
+"
+15_09_newclan_merged.cha,55589,42831610_42833350,"%xcom:	silence 3 of 4 ends at 42833350.0 -- previous timestamp adjusted: was 42834380
+"
+15_09_newclan_merged.cha,57437,43859300_43860760,"%xcom:	silence 4 of 4 starts at 43860760.0 -- previous timestamp adjusted: was 43861420
+"
+15_09_newclan_merged.cha,58059,54125560_57599990,"%xcom:	silence 4 of 4 ends at 57600140.0 -- previous timestamp adjusted: was 57599990
+"
+15_09_newclan_merged.cha,58061,54125560_57599990,"%xcom:	silence 4 of 4 ends at 57600140.0 -- previous timestamp adjusted: was 57599990
+"
+15_09_newclan_merged.cha,58063,54125560_57599990,"%xcom:	silence 4 of 4 ends at 57600140.0 -- previous timestamp adjusted: was 57599990
+"
+17_09_newclan_merged.cha,32,1210_1730,"%xcom:	subregion 1 of 5 starts at 1730 -- previous timestamp adjusted: was 1730 - lowest ranked region; [contains silent region: [1620618.551, 7168238.791] ]
+"
+17_09_newclan_merged.cha,537,248320_249470,"%xcom:	as in the tool
+"
+17_09_newclan_merged.cha,1752,783040_784910,"%xcom:	book title
+"
+17_09_newclan_merged.cha,2157,971580_973790,"%xcom:	lets pop-pop know he's being recorded for babylab study
+"
+17_09_newclan_merged.cha,3232,1620590_1620618,"%xcom:	silence 1 of 2 starts at 1620618.551 -- previous timestamp adjusted: was 1621500
+"
+17_09_newclan_merged.cha,4020,3585900_3600000,"%xcom:	subregion 1 of 5 ends at 3600000 -- previous timestamp adjusted: was 3626400 - lowest ranked region; [contains silent region: [1620618.551, 7168238.791] ]
+"
+17_09_newclan_merged.cha,4971,7167350_7168238,"%xcom:	silence 1 of 2 ends at 7168238.791 -- previous timestamp adjusted: was 7168720
+"
+17_09_newclan_merged.cha,8942,10198640_10200000,"%xcom:	subregion 2 of 5 starts at 10200000 -- previous timestamp adjusted: was 10200180
+"
+17_09_newclan_merged.cha,9430,10493520_10493970,"%xcom:	started coding CVs
+"
+17_09_newclan_merged.cha,10299,10978450_10979950,"%xcom:	begin personal information: doctor's office
+"
+17_09_newclan_merged.cha,10304,10984500_10986570,"%xcom:	end personal information: doctor's office
+"
+17_09_newclan_merged.cha,10838,11265350_11266720,"%xcom:	begin personal information: health information
+"
+17_09_newclan_merged.cha,10847,11268910_11269290,"%xcom:	end personal information: health  information
+"
+17_09_newclan_merged.cha,11248,11531730_11532780,"%xcom:	begin personal information: health information
+"
+17_09_newclan_merged.cha,13667,12997900_12998900,"%xcom:	end personal information
+"
+17_09_newclan_merged.cha,14988,13799160_13800000,"%xcom:	subregion 2 of 5 ends at 13800000 -- previous timestamp adjusted: was 13800010
+"
+17_09_newclan_merged.cha,19550,16799900_16800000,"%xcom:	subregion 3 of 5 starts at 16800000 -- previous timestamp adjusted: was 16801460
+"
+17_09_newclan_merged.cha,26059,20399610_20400000,"%xcom:	subregion 3 of 5 ends at 20400000 -- previous timestamp adjusted: was 20400430
+"
+17_09_newclan_merged.cha,26189,20473630_20475440,"%xcom:	silence 2 of 2 starts at 20475440.0 -- previous timestamp adjusted: was 20476420
+"
+17_09_newclan_merged.cha,26448,25533970_25534440,"%xcom:	silence 2 of 2 ends at 25534440.0 -- previous timestamp adjusted: was 25536170
+"
+17_09_newclan_merged.cha,27137,26099000_26100000,"%xcom:	subregion 4 of 5 starts at 26100000 -- previous timestamp adjusted: was 26100540
+"
+17_09_newclan_merged.cha,33969,29699620_29700000,"%xcom:	subregion 4 of 5 ends at 29700000 -- previous timestamp adjusted: was 29700430
+"
+17_09_newclan_merged.cha,37548,33299400_33300000,"%xcom:	subregion 5 of 5 starts at 33300000 -- previous timestamp adjusted: was 33300260
+"
+17_09_newclan_merged.cha,37549,33299400_33300000,"%xcom:	begin skip: baby crying, no talking
+"
+17_09_newclan_merged.cha,37973,33712530_33714230,"%xcom:	end skip
+"
+17_09_newclan_merged.cha,38098,33787780_33788910,"%xcom:	begin skip
+"
+17_09_newclan_merged.cha,38462,34059510_34062150,"%xcom:	end skip
+"
+17_09_newclan_merged.cha,38638,34174890_34175000,"%xcom:	begin skip
+"
+17_09_newclan_merged.cha,38960,34428470_34429580,"%xcom:	end skip
+"
+17_09_newclan_merged.cha,39066,34492190_34494550,"%xcom:	FAT is saying some word but hard to make out what
+"
+17_09_newclan_merged.cha,39342,34670580_34672130,"%xcom:	begin skip
+"
+17_09_newclan_merged.cha,39798,34991680_34992600,"%xcom:	end skip
+"
+17_09_newclan_merged.cha,40053,35146640_35147530,"%xcom:	begin skip
+"
+17_09_newclan_merged.cha,40336,35372460_35372610,"%xcom:	end skip
+"
+17_09_newclan_merged.cha,40431,35422180_35423450,"%xcom:	seems like dad saw cat
+"
+17_09_newclan_merged.cha,41960,36330080_36330680,"%xcom:	begin skip
+"
+17_09_newclan_merged.cha,42486,36685530_36686130,"%xcom:	end skip
+"
+17_09_newclan_merged.cha,42695,36897870_36900000,"%xcom:	subregion 5 of 5 ends at 36900000 -- previous timestamp adjusted: was 36901680
+"
+17_09_newclan_merged.cha,42697,36897870_36900000,"%xcom:	subregion 5 of 5 ends at 36900000 -- previous timestamp adjusted: was 36901680
+"
+17_10_coderGC_final.cha,3978,2978730_3000000,"%xcom:	subregion 1 of 5 starts at 3000000 -- previous timestamp adjusted: was 3004000 - lowest ranked region; [contains silent region: [6399244.656, 11261349.952] ]
+"
+17_10_coderGC_final.cha,5387,4236070_4236870,"%com:	begin personal information: home location
+"
+17_10_coderGC_final.cha,5405,4259940_4260760,"%com:	end personal information
+"
+17_10_coderGC_final.cha,6196,4952110_4956750,"%com:	stopped extra 32 minutes here
+"
+17_10_coderGC_final.cha,8413,6398620_6399244,"%xcom:	silence 1 of 3 starts at 6399244.656 -- previous timestamp adjusted: was 6399620
+"
+17_10_coderGC_final.cha,8668,6596600_6600000,"%xcom:	subregion 1 of 5 ends at 6600000 -- previous timestamp adjusted: was 6600000 - lowest ranked region; [contains silent region: [6399244.656, 11261349.952] ]
+"
+17_10_coderGC_final.cha,9332,11260900_11261349,"%xcom:	silence 1 of 3 ends at 11261349.952 -- previous timestamp adjusted: was 11264180
+"
+17_10_coderGC_final.cha,9633,11399560_11400000,"%xcom:	subregion 2 of 5 starts at 11400000 -- previous timestamp adjusted: was 11401480
+"
+17_10_coderGC_final.cha,16591,14999650_15000000,"%xcom:	subregion 2 of 5 ends at 15000000 -- previous timestamp adjusted: was 15001040
+"
+17_10_coderGC_final.cha,24065,19199810_19200000,"%xcom:	subregion 3 of 5 starts at 19200000 -- previous timestamp adjusted:
+"
+17_10_coderGC_final.cha,24380,19373550_19374350,"%com:	begin personal information
+"
+17_10_coderGC_final.cha,24388,19384080_19387660,"%xcom:	end personal information
+"
+17_10_coderGC_final.cha,25074,19781210_19782410,"%com:	mom referring to  toy
+"
+17_10_coderGC_final.cha,25276,19903320_19904190,"%com:	begin skip: family in car
+"
+17_10_coderGC_final.cha,25762,20302690_20303520,"%com:	end skip
+"
+17_10_coderGC_final.cha,25850,20362910_20364720,"%com:	begin skip
+"
+17_10_coderGC_final.cha,26042,20497480_20498150,"%com:	end skip
+"
+17_10_coderGC_final.cha,26089,20514680_20515310,"%com:	begin skip
+"
+17_10_coderGC_final.cha,26135,20553000_20554110,"%com:	end skip
+"
+17_10_coderGC_final.cha,26779,20920830_20922210,"%com:	mom mentions one of kids is dozing off hard to tell which
+"
+17_10_coderGC_final.cha,27142,21192060_21195210,"%com:	begin skip
+"
+17_10_coderGC_final.cha,27776,21989790_21990730,"%com:	end skip
+"
+17_10_coderGC_final.cha,29260,22799400_22800000,"%xcom:	subregion 3 of 5 ends at 22800000 -- previous timestamp adjusted: was 22801190
+"
+17_10_coderGC_final.cha,31914,24471340_24471930,"%xcom:	silence 2 of 3 starts at 24471930.448 -- previous timestamp adjusted: was 24472410
+"
+17_10_coderGC_final.cha,32949,29531380_29532265,"%xcom:	silence 2 of 3 ends at 29532265.328 -- previous timestamp adjusted: was 29532680
+"
+17_10_coderGC_final.cha,33294,29699760_29700000,"%xcom:	subregion 4 of 5 starts at 29700000 -- previous timestamp adjusted: was 29702940
+"
+17_10_coderGC_final.cha,36015,31103930_31105470,"%com:	sounds like theyr'e getting into car (very quiet car?)
+"
+17_10_coderGC_final.cha,36392,31307850_31309120,"%xcom:	begin skip
+"
+17_10_coderGC_final.cha,36933,32223650_32224940,"%com:	end skip: car ride
+"
+17_10_coderGC_final.cha,37992,32824570_32825570,"%xcom:	sounds like baby is far from book-reading so not coding
+"
+17_10_coderGC_final.cha,38553,33299000_33300000,"%xcom:	subregion 4 of 5 ends at 33300000 -- previous timestamp adjusted: was 33302660
+"
+17_10_coderGC_final.cha,44715,38397310_38400000,"%xcom:	subregion 5 of 5 starts at 38400000 -- previous timestamp adjusted: was 38403180 [contains silent region: [41725988.514, 57600140.0] ]
+"
+17_10_coderGC_final.cha,44878,38500800_38502330,"%xcom:	begin car-ride
+"
+17_10_coderGC_final.cha,45217,38787450_38788530,"%com:	begin skip:
+"
+17_10_coderGC_final.cha,45956,39481960_39483360,"%com:	end skip: end car ride
+"
+17_10_coderGC_final.cha,47166,40057460_40059420,"%xcom:	grandpa notices recorder, dad reminds him abou study waiver he signed
+"
+17_10_coderGC_final.cha,50524,41724350_41725988,"%com:	begin skip
+"
+17_10_coderGC_final.cha,50525,41724350_41725988,"%xcom:	silence 3 of 3 starts at 41725988.514 -- previous timestamp adjusted: was 41746060
+"
+17_10_coderGC_final.cha,50670,41999440_42000000,"%com:	end skip
+"
+17_10_coderGC_final.cha,50671,41999440_42000000,"%xcom:	subregion 5 of 5 ends at 42000000 -- previous timestamp adjusted: was 42003280 [contains silent region: [41725988.514, 57600140.0] ]
+"
+17_10_coderGC_final.cha,51449,51537940_57599990,"%xcom:	silence 3 of 3 ends at 57600140.0 -- previous timestamp adjusted: was 57599990
+"
+18_08_newclan_merged.cha,31,0_800,"%xcom:	subregion 1 of 5 starts at 800 -- previous timestamp adjusted: was 800
+"
+18_08_newclan_merged.cha,151,60700_62110,"%xcom:	refers to bedding covers
+"
+18_08_newclan_merged.cha,6603,3599340_3600000,"%xcom:	subregion 1 of 5 ends at 3600000 -- previous timestamp adjusted: was 3604100
+"
+18_08_newclan_merged.cha,8873,5099020_5100000,"%xcom:	subregion 2 of 5 starts at 5100000 -- previous timestamp adjusted: was 5100080
+"
+18_08_newclan_merged.cha,10546,6047970_6049500,"%xcom:	begin personal information: the kids are at sitter service
+"
+18_08_newclan_merged.cha,12272,7037760_7038530,"%xcom:	begin skip: baby crying and eating: no one talking
+"
+18_08_newclan_merged.cha,12992,7580000_7580680,"%xcom:	end skip
+"
+18_08_newclan_merged.cha,14844,8698740_8700390,"%xcom:	subregion 2 of 5 ends at 8700000 -- previous timestamp adjusted: was 8700390
+"
+18_08_newclan_merged.cha,28460,20907640_20907840,"%xcom:	silence 1 of 2 starts at 20907840.0 -- previous timestamp adjusted: was 20908440
+"
+18_08_newclan_merged.cha,29916,21938440_21938463,"%xcom:	silence 1 of 2 ends at 21938463.698 -- previous timestamp adjusted: was 21939920
+"
+18_08_newclan_merged.cha,30371,22199410_22200000,"%xcom:	subregion 3 of 5 starts at 22200000 -- previous timestamp adjusted: was 22200300
+"
+18_08_newclan_merged.cha,30736,22373210_22373810,"%xcom:	begin skip: baby eating
+"
+18_08_newclan_merged.cha,31096,22584140_22584940,"%xcom:	end skip
+"
+18_08_newclan_merged.cha,31165,22640290_22642370,"%xcom:	begin skip
+"
+18_08_newclan_merged.cha,31632,22875000_22876030,"%xcom:	end skip
+"
+18_08_newclan_merged.cha,33869,24241930_24243210,"%xcom:	begin personal information: street address
+"
+18_08_newclan_merged.cha,33876,24246190_24247600,"%xcom:	end personal information
+"
+18_08_newclan_merged.cha,35184,25048480_25049820,"%xcom:	begin skip: in the car and baby crying
+"
+18_08_newclan_merged.cha,36329,25798940_25801100,"%xcom:	subregion 3 of 5 ends at 25800000 -- previous timestamp adjusted: was 25801100
+"
+18_08_newclan_merged.cha,36330,25798940_25801100,"%xcom:	end skip
+"
+18_08_newclan_merged.cha,51500,36596500_36600000,"%xcom:	subregion 4 of 5 starts at 36600000 -- previous timestamp adjusted: was 36600710
+"
+18_08_newclan_merged.cha,52804,37361630_37365010,"%xcom:	begin personal information: child without consent form speaking
+"
+18_08_newclan_merged.cha,52811,37365930_37366930,"%xcom:	end personal information
+"
+18_08_newclan_merged.cha,53763,38138740_38139580,"%xcom:	begin personal information: child without consent
+"
+18_08_newclan_merged.cha,53781,38156300_38162660,"%xcom:	end personal information
+"
+18_08_newclan_merged.cha,55746,39351040_39351750,"%xcom:	begin personal information: child without consent
+"
+18_08_newclan_merged.cha,55756,39354270_39355070,"%xcom:	end personal information
+"
+18_08_newclan_merged.cha,56249,39669390_39674110,"%xcom:	begin personal information: child without consent
+"
+18_08_newclan_merged.cha,56296,39705120_39706100,"%xcom:	end personal information
+"
+18_08_newclan_merged.cha,56572,39862870_39864610,"%xcom:	begin personal information: child without consent
+"
+18_08_newclan_merged.cha,56625,39890630_39892730,"%xcom:	end personal information
+"
+18_08_newclan_merged.cha,56977,40094780_40095820,"%xcom:	referring to child's medicine syringe
+"
+18_08_newclan_merged.cha,57121,40199200_40200000,"%xcom:	subregion 4 of 5 ends at 40200000 -- previous timestamp adjusted: was 40200040
+"
+18_08_newclan_merged.cha,59014,41399520_41400000,"%xcom:	subregion 5 of 5 starts at 41400000 -- previous timestamp adjusted: was 41400480. lowest ranked region; skip unless necessary
+"
+18_08_newclan_merged.cha,59015,41399520_41400000,"%xcom:	begin 21.5 minutes of make up time
+"
+18_08_newclan_merged.cha,59071,41430000_41431160,"%xcom:	begin personal information: phone number
+"
+18_08_newclan_merged.cha,59081,41434970_41437540,"%xcom:	end personal information
+"
+18_08_newclan_merged.cha,61266,42692120_42692980,"%xcom:	end make up time
+"
+18_08_newclan_merged.cha,65228,44999420_45000000,"%xcom:	subregion 5 of 5 ends at 45000000 -- previous timestamp adjusted: was 45000220. lowest ranked region; skip unless necessary
+"
+18_08_newclan_merged.cha,65230,44999420_45000000,"%xcom:	subregion 5 of 5 ends at 45000000 -- previous timestamp adjusted: was 45000220. lowest ranked region; skip unless necessary
+"
+18_08_newclan_merged.cha,65232,44999420_45000000,"%xcom:	subregion 5 of 5 ends at 45000000 -- previous timestamp adjusted: was 45000220. lowest ranked region; skip unless necessary
+"
+20_09_newclan_merged.cha,31,0_1270,"%xcom:	subregion 1 of 5 starts at 1270 -- previous timestamp adjusted: was 1270
+"
+20_09_newclan_merged.cha,3014,1622190_1624550,"%xcom:	plane IS present button on suitcase toy
+"
+20_09_newclan_merged.cha,6176,3599480_3600000,"%xcom:	subregion 1 of 5 ends at 3600000 -- previous timestamp adjusted: was 3600490
+"
+20_09_newclan_merged.cha,7070,4497360_4500000,"%xcom:	subregion 2 of 5 starts at 4500000 -- previous timestamp adjusted: was 4500130. lowest ranked region; skip unless necessary
+"
+20_09_newclan_merged.cha,7071,4497360_4500000,"%xcom:	begin make up region 27 mins
+"
+20_09_newclan_merged.cha,9429,6134310_6135110,"%xcom:	end make up region
+"
+20_09_newclan_merged.cha,12522,8099460_8100000,"%xcom:	subregion 2 of 5 ends at 8100000 -- previous timestamp adjusted: was 8102820. lowest ranked region; skip unless necessary
+"
+20_09_newclan_merged.cha,12667,8186200_8186635,"%xcom:	silence 1 of 3 starts at 8186635.078 -- previous timestamp adjusted: was 8187460
+"
+20_09_newclan_merged.cha,13758,14096550_14100000,"%xcom:	subregion 3 of 5 starts at 14100000 -- previous timestamp adjusted: was 14102390 [contains silent region: [8186635.078, 14345190.584] ]
+"
+20_09_newclan_merged.cha,13890,14345170_14345190,"%xcom:	silence 1 of 3 ends at 14345190.584 -- previous timestamp adjusted: was 14357170
+"
+20_09_newclan_merged.cha,15345,15383620_15385240,"%xcom:	begin skip parents leave room
+"
+20_09_newclan_merged.cha,15972,15784920_15788080,"%xcom:	end skip: parents out of room
+"
+20_09_newclan_merged.cha,16502,16155340_16157570,"%xcom:	referring to sheet of paper
+"
+20_09_newclan_merged.cha,17396,17141030_17142100,"%xcom:	referring to dog kennel
+"
+20_09_newclan_merged.cha,18344,17698660_17700000,"%xcom:	subregion 3 of 5 ends at 17700000 -- previous timestamp adjusted: was 17700810
+"
+20_09_newclan_merged.cha,24305,26085590_26087243,"%xcom:	silence 2 of 3 starts at 26087243.401 -- previous timestamp adjusted: was 26088100
+"
+20_09_newclan_merged.cha,25346,27020780_27021720,"%xcom:	silence 2 of 3 ends at 27021720.0 -- previous timestamp adjusted: was 27023800
+"
+20_09_newclan_merged.cha,26217,27954570_27975914,"%xcom:	silence 3 of 3 starts at 27975914.926 -- previous timestamp adjusted: was 28187910
+"
+20_09_newclan_merged.cha,26236,29902110_29902257,"%xcom:	silence 3 of 3 ends at 29902257.375 -- previous timestamp adjusted: was 29902910
+"
+20_09_newclan_merged.cha,33481,35698950_35700000,"%xcom:	subregion 4 of 5 starts at 35700000 -- previous timestamp adjusted: was 35702310
+"
+20_09_newclan_merged.cha,34086,36180220_36181560,"%xcom:	referring to water
+"
+20_09_newclan_merged.cha,34528,36474660_36475480,"%xcom:	begin skip
+"
+20_09_newclan_merged.cha,35780,37191000_37195060,"%xcom:	end skip
+"
+20_09_newclan_merged.cha,38010,39299820_39300000,"%xcom:	subregion 4 of 5 ends at 39300000 -- previous timestamp adjusted: was 39300620
+"
+20_09_newclan_merged.cha,38473,39596750_39600000,"%xcom:	subregion 5 of 5 starts at 39600000 -- previous timestamp adjusted: was 39601000
+"
+20_09_newclan_merged.cha,42300,41940060_41941640,"%xcom:	begin personal information: questionable details of someone else's
+"
+20_09_newclan_merged.cha,42408,42012750_42014680,"%xcom:	end personal information
+"
+20_09_newclan_merged.cha,42561,42120520_42123020,"%xcom:	name of TV show
+"
+20_09_newclan_merged.cha,42984,42375720_42376610,"%xcom:	begin skip- no words
+"
+20_09_newclan_merged.cha,43635,42888180_42888980,"%xcom:	end skip
+"
+20_09_newclan_merged.cha,44140,43175310_43177190,"%xcom:	name of TV show
+"
+20_09_newclan_merged.cha,44184,43198850_43200000,"%xcom:	subregion 5 of 5 ends at 43200000 -- previous timestamp adjusted: was 43200030
+"
+20_09_newclan_merged.cha,44186,43198850_43200000,"%xcom:	subregion 5 of 5 ends at 43200000 -- previous timestamp adjusted: was 43200030
+"
+26_09_coderSK_final.cha,33,0_1250,"%xcom:	subregion 1 of 5 starts at 1 -- previous timestamp adjusted: was 1250 - lowest ranked region; [contains silent region: [1715436.525, 7790193.443] ]
+"
+26_09_coderSK_final.cha,3325,1715290_1715436,"%xcom:	silence 1 of 3 starts at 1715436.525 -- previous timestamp adjusted: was 1718580
+"
+26_09_coderSK_final.cha,3540,3567420_3600000,"%xcom:	subregion 1 of 5 ends at 3600000 -- previous timestamp adjusted: was 3658700 - lowest ranked region; [contains silent region: [1715436.525, 7790193.443] ]
+"
+26_09_coderSK_final.cha,3759,5195670_7500000,"%xcom:	subregion 2 of 5 starts at 7500000 -- previous timestamp adjusted: was 7502160 [contains silent region: [1715436.525, 7790193.443] ]
+"
+26_09_coderSK_final.cha,3922,7789700_7790193,"%xcom:	silence 1 of 3 ends at 7790193.443 -- previous timestamp adjusted: was 7790500
+"
+26_09_coderSK_final.cha,4794,8243110_8244040,"%com:	refers to neck
+"
+26_09_coderSK_final.cha,5398,8561520_8563620,"%xcom:	refers to pacifier
+"
+26_09_coderSK_final.cha,5885,8928680_8931140,"%com:	munna stopped here
+"
+26_09_coderSK_final.cha,8179,11095730_11100000,"%xcom:	subregion 2 of 5 ends at 11100000 -- previous timestamp adjusted: was 11100460
+"
+26_09_coderSK_final.cha,12500,15080510_15086820,"%xcom:	silence 2 of 3 starts at 15086820.895 -- previous timestamp adjusted: was 15096260
+"
+26_09_coderSK_final.cha,14755,20879710_21000000,"%xcom:	subregion 3 of 5 starts at 21000000 -- previous timestamp adjusted: was 21012460 [contains silent region: [15086820.895, 21229231.719] ]
+"
+26_09_coderSK_final.cha,15030,21228860_21229231,"%xcom:	silence 2 of 3 ends at 21229231.719 -- previous timestamp adjusted: was 21231230
+"
+26_09_coderSK_final.cha,16732,22120700_22124960,"%xcom:	refers to guitar strings
+"
+26_09_coderSK_final.cha,16789,22148800_22150030,"%xcom:	subject goes back to playing with blocks
+"
+26_09_coderSK_final.cha,20354,24599090_24600000,"%xcom:	subregion 3 of 5 ends at 24600000 -- previous timestamp adjusted: was 24600500
+"
+26_09_coderSK_final.cha,20357,24600500_24601020,"%xcom:	subregion 4 of 5 starts at 24600000 -- previous timestamp adjusted: was 24601020
+"
+26_09_coderSK_final.cha,26169,28198880_28200000,"%xcom:	subregion 4 of 5 ends at 28200000 -- previous timestamp adjusted: was 28200240
+"
+26_09_coderSK_final.cha,27314,28799380_28800000,"%xcom:	subregion 5 of 5 starts at 28800000 -- previous timestamp adjusted: was 28801670
+"
+26_09_coderSK_final.cha,28755,29956360_29958920,"%com:	subject is shuffling
+"
+26_09_coderSK_final.cha,32741,32397950_32400000,"%xcom:	subregion 5 of 5 ends at 32400000 -- previous timestamp adjusted: was 32400020
+"
+26_09_coderSK_final.cha,38252,36495770_36505688,"%xcom:	silence 3 of 3 starts at 36505688.562 -- previous timestamp adjusted: was 36519370
+"
+26_09_coderSK_final.cha,38700,52605340_57599990,"%xcom:	silence 3 of 3 ends at 57600140.0 -- previous timestamp adjusted: was 57599990
+"
+28_09_coderSA_final.cha,11453,13498410_13500000,"%xcom:	subregion 1 of 5 starts at 13500000 -- previous timestamp adjusted: was 13535790
+"
+28_09_coderSA_final.cha,17322,17099680_17100000,"%xcom:	subregion 1 of 5 ends at 17100000 -- previous timestamp adjusted: was 17100540
+"
+28_09_coderSA_final.cha,19751,18688910_18689014,"%xcom:	silence 1 of 2 starts at 18689014.962 -- previous timestamp adjusted: was 18689920
+"
+28_09_coderSA_final.cha,21408,25797650_25800000,"%xcom:	subregion 2 of 5 starts at 25800000 -- previous timestamp adjusted: was 25810050 - lowest ranked region; [contains silent region: [18689014.962, 26593620.0] ]
+"
+28_09_coderSA_final.cha,21533,26590700_26593620,"%xcom:	silence 1 of 2 ends at 26593620.0 -- previous timestamp adjusted: was 26595450
+"
+28_09_coderSA_final.cha,22270,27744110_27745050,"%com:	begin extra region
+"
+28_09_coderSA_final.cha,23714,28867220_28868220,"%com:	end extra region
+"
+28_09_coderSA_final.cha,24273,29399470_29400000,"%xcom:	subregion 2 of 5 ends at 29400000 -- previous timestamp adjusted: was 29402100. lowest ranked region; skip unless necessary
+"
+28_09_coderSA_final.cha,24276,29402100_29402900,"%xcom:	subregion 3 of 5 starts at 29400000 -- previous timestamp adjusted: was 29402900
+"
+28_09_coderSA_final.cha,24651,29657490_29658350,"%com:	start skip
+"
+28_09_coderSA_final.cha,24983,30735800_30738050,"%com:	end skip
+"
+28_09_coderSA_final.cha,26121,31441130_31442130,"%xcom:	refers to fuzzy thing in her hair
+"
+28_09_coderSA_final.cha,26644,31727520_31728540,"%xcom:	calls Lena a cellphone and taps on it
+"
+28_09_coderSA_final.cha,26664,31735400_31736400,"%xcom:	verbally tells GRM about recordings
+"
+28_09_coderSA_final.cha,28596,32995230_33000000,"%xcom:	subregion 3 of 5 ends at 33000000 -- previous timestamp adjusted: was 33003610
+"
+28_09_coderSA_final.cha,28601,33003610_33004800,"%xcom:	subregion 4 of 5 starts at 33000000 -- previous timestamp adjusted: was 33004800
+"
+28_09_coderSA_final.cha,29296,33478370_33479450,"%xcom:	informs family about recording/release form
+"
+28_09_coderSA_final.cha,30377,34113430_34114230,"%com:	begin personal information: full name
+"
+28_09_coderSA_final.cha,30380,34114230_34115640,"%xcom:	end personal information: full name
+"
+28_09_coderSA_final.cha,34183,36342760_36343570,"%com:	begin personal information: full name
+"
+28_09_coderSA_final.cha,34189,36346790_36350330,"%com:	end personal information: full name
+"
+28_09_coderSA_final.cha,34584,36599470_36600000,"%xcom:	subregion 4 of 5 ends at 36600000 -- previous timestamp adjusted: was 36600510
+"
+28_09_coderSA_final.cha,34588,36600510_36603780,"%xcom:	subregion 5 of 5 starts at 36600000 -- previous timestamp adjusted: was 36603780
+"
+28_09_coderSA_final.cha,40858,40197840_40200000,"%xcom:	subregion 5 of 5 ends at 40200000 -- previous timestamp adjusted: was 40200120
+"
+28_09_coderSA_final.cha,42377,41292100_41315314,"%xcom:	silence 2 of 2 starts at 41315314.796 -- previous timestamp adjusted: was 41613320
+"
+28_09_coderSA_final.cha,42513,50719030_50720610,"%xcom:	silence 2 of 2 ends at 50720760.0 -- previous timestamp adjusted: was 50720610
+"
+34_06_newclan_merged.cha,6501,4593240_4594651,"%xcom:	silence 1 of 2 starts at 4594651.84 -- previous timestamp adjusted: was 4724110
+"
+34_06_newclan_merged.cha,8060,9784300_9784470,"%xcom:	silence 1 of 2 ends at 9784470.0 -- previous timestamp adjusted: was 9785650
+"
+34_06_newclan_merged.cha,11934,12886040_12889840,"%xcom:	the next two references to cheese are nicknames so I did not code
+"
+34_06_newclan_merged.cha,16589,16938650_16939690,"%xcom:	poo is a nickname for the baby
+"
+34_06_newclan_merged.cha,18325,18364860_18367490,"%xcom:	begin skip
+"
+34_06_newclan_merged.cha,18549,18950370_18967740,"%xcom:	silence 2 of 2 starts at 18967740.278 -- previous timestamp adjusted: was 18968380
+"
+34_06_newclan_merged.cha,19082,20832840_20833380,"%xcom:	silence 2 of 2 ends at 20833380.0 -- previous timestamp adjusted: was 20844630
+"
+34_06_newclan_merged.cha,19236,21258100_21259040,"%xcom:	end skip
+"
+34_06_newclan_merged.cha,19365,21496310_21500530,"%xcom:	begin skip
+"
+34_06_newclan_merged.cha,20305,23250380_23251600,"%xcom:	end skip
+"
+34_06_newclan_merged.cha,20365,23301270_23302440,"%xcom:	begin skip
+"
+34_06_newclan_merged.cha,21004,24377340_24378400,"%xcom:	end skip
+"
+34_06_newclan_merged.cha,24441,29717630_29722780,"%xcom:	begin skip: baby alone
+"
+34_06_newclan_merged.cha,24906,29936910_29937710,"%xcom:	end skip
+"
+34_06_newclan_merged.cha,25566,30465420_30466020,"%xcom:	begin skip: car ride
+"
+34_06_newclan_merged.cha,25812,31013510_31019870,"%xcom:	end skip
+"
+34_06_newclan_merged.cha,25915,31119910_31120720,"%xcom:	begin skip: car ride
+"
+34_06_newclan_merged.cha,26070,31425230_31426960,"%xcom:	end skip: at store
+"
+34_06_newclan_merged.cha,28211,33691970_33700980,"%xcom:	begin skip: car ride
+"
+34_06_newclan_merged.cha,29454,35600900_35605620,"%xcom:	end skip
+"
+34_06_newclan_merged.cha,30918,39173050_39174240,"%xcom:	Bella stopped here
+"
+34_06_newclan_merged.cha,36946,48016760_48018020,"%xcom:	begin skip;  end of coding
+"
+34_06_newclan_merged.cha,36994,48063210_48064240,"%xcom:	end skip
+"
+34_06_newclan_merged.cha,37043,48116330_48118170,"%xcom:	begin skip
+"
+34_06_newclan_merged.cha,37521,49485470_49494020,"%xcom:	end skip
+"
+34_06_newclan_merged.cha,37591,49531290_49532100,"%xcom:	begin skip
+"
+34_06_newclan_merged.cha,37593,49531290_49532100,"%xcom:	begin skip
+"
+43_07_coderSK_final.cha,2399,1283610_1286380,"%com:	baby breastfeeding
+"
+43_07_coderSK_final.cha,2825,1575010_1575329,"%xcom:	silence 1 of 7 starts at 1575329.252 -- previous timestamp adjusted: was 1575810
+"
+43_07_coderSK_final.cha,3859,3430600_3430759,"%xcom:	silence 1 of 7 ends at 3430759.318 -- previous timestamp adjusted: was 3432540
+"
+43_07_coderSK_final.cha,8550,6314930_6316710,"%com:	refers to egg shell
+"
+43_07_coderSK_final.cha,11988,8604960_8606420,"%xcom:	refers to recorder
+"
+43_07_coderSK_final.cha,15563,10553180_10556171,"%xcom:	silence 2 of 7 starts at 10556171.675 -- previous timestamp adjusted: was 11609390
+"
+43_07_coderSK_final.cha,15684,12842360_12842880,"%xcom:	silence 2 of 7 ends at 12842880.0 -- previous timestamp adjusted: was 12843310
+"
+43_07_coderSK_final.cha,16513,13329420_13332094,"%xcom:	silence 3 of 7 starts at 13332094.047 -- previous timestamp adjusted: was 13332520
+"
+43_07_coderSK_final.cha,17625,14670670_14670940,"%xcom:	silence 3 of 7 ends at 14670940.701 -- previous timestamp adjusted: was 14673010
+"
+43_07_coderSK_final.cha,20401,16321090_16321890,"%com:	car noise very loud
+"
+43_07_coderSK_final.cha,23503,20718030_20719286,"%xcom:	silence 4 of 7 starts at 20719286.158 -- previous timestamp adjusted: was 20719310
+"
+43_07_coderSK_final.cha,24703,27966420_27966463,"%xcom:	silence 4 of 7 ends at 27966463.095 -- previous timestamp adjusted: was 27968590
+"
+43_07_coderSK_final.cha,25834,28754190_28754480,"%xcom:	silence 5 of 7 starts at 28754480.05 -- previous timestamp adjusted: was 28755190
+"
+43_07_coderSK_final.cha,26546,30025530_30025700,"%xcom:	silence 5 of 7 ends at 30025700.0 -- previous timestamp adjusted: was 30030170
+"
+43_07_coderSK_final.cha,32762,33475720_33476900,"%com:	refers to merchandising stand
+"
+43_07_coderSK_final.cha,36806,35558950_35560130,"%com:	subject is playing with toys
+"
+43_07_coderSK_final.cha,37255,35840270_35841070,"%com:	subject making sounds to herself, likely not paying attention to TV
+"
+43_07_coderSK_final.cha,37392,35929240_35930770,"%xcom:	still playing with toy here
+"
+43_07_coderSK_final.cha,44827,40243830_40244860,"%com:	baby is most likely asleep, very quiet
+"
+43_07_coderSK_final.cha,44907,40290930_40291930,"%com:	parents whispering, baby asleep
+"
+43_07_coderSK_final.cha,45376,40722960_40724050,"%xcom:	silence 6 of 7 starts at 40724050.997 -- previous timestamp adjusted: was 40817630
+"
+43_07_coderSK_final.cha,45423,42542570_42734223,"%xcom:	silence 6 of 7 ends at 42734223.55 -- previous timestamp adjusted: was 42735170
+"
+43_07_coderSK_final.cha,47163,43626370_43628360,"%xcom:	toy noises, baby playing with toys
+"
+43_07_coderSK_final.cha,48475,44431900_44433390,"%com:	baby finishes breastfeeding
+"
+43_07_coderSK_final.cha,58505,50090780_50091580,"%com:	breastfeeding
+"
+43_07_coderSK_final.cha,64257,53223790_53225090,"%com:	refers to a book but may be an incorrect title
+"
+43_07_coderSK_final.cha,64455,53326370_53327180,"%com:	referring to musical terms
+"
+43_07_coderSK_final.cha,65279,53751440_53752160,"%xcom:	baby is falling asleep
+"
+43_07_coderSK_final.cha,65374,53792090_53793090,"%com:	baby is falling asleep, makes groans and parent pats baby asleep
+"
+43_07_coderSK_final.cha,66158,54420130_54423144,"%xcom:	silence 7 of 7 starts at 54423144.959 -- previous timestamp adjusted: was 54425840
+"
+43_07_coderSK_final.cha,66227,54476760_54478240,"%xcom:	silence 7 of 7 ends at 54478390.0 -- previous timestamp adjusted: was 54478240
+"
+45_06_coderAR_final.cha,6613,4531910_4532596,"%xcom:	silence 1 of 3 starts at 4532596.246 -- previous timestamp adjusted: was 4534460
+"
+45_06_coderAR_final.cha,7984,11296020_11296973,"%xcom:	silence 1 of 3 ends at 11296973.804 -- previous timestamp adjusted: was 11298100
+"
+45_06_coderAR_final.cha,13286,15010670_15011670,"%xcom:	verb as object
+"
+45_06_coderAR_final.cha,13294,15013320_15014350,"%xcom:	verb as object
+"
+45_06_coderAR_final.cha,14394,15603670_15604470,"%com:	begin car ride
+"
+45_06_coderAR_final.cha,14870,15974630_15976900,"%com:	end car ride
+"
+45_06_coderAR_final.cha,14959,16042640_16044010,"%com:	begin car ride
+"
+45_06_coderAR_final.cha,15524,16619550_16620650,"%com:	end car ride; dad says baby is asleep
+"
+45_06_coderAR_final.cha,18988,19070150_19070950,"%com:	baby is awake now
+"
+45_06_coderAR_final.cha,21235,21772740_21774488,"%xcom:	silence 2 of 3 starts at 21774488.7 -- previous timestamp adjusted: was 21778790
+"
+45_06_coderAR_final.cha,21446,24050750_24051766,"%xcom:	silence 2 of 3 ends at 24051766.838 -- previous timestamp adjusted: was 24051770
+"
+45_06_coderAR_final.cha,28310,28972670_28973770,"%com:	sister wakes up
+"
+45_06_coderAR_final.cha,28616,29168000_29169280,"%com:	seems like child was left alone with TV?
+"
+45_06_coderAR_final.cha,29293,29589010_29589810,"%com:	feeding time it sounds like
+"
+45_06_coderAR_final.cha,29791,29934910_29935710,"%com:	begin skip, mom just watching tv, dad nearby, baby eating
+"
+45_06_coderAR_final.cha,29994,30090650_30091920,"%com:	end skip
+"
+45_06_coderAR_final.cha,30376,30354960_30357363,"%xcom:	silence 3 of 3 starts at 30357363.229 -- previous timestamp adjusted: was 30358480
+"
+45_06_coderAR_final.cha,31499,34692810_34695587,"%xcom:	silence 3 of 3 ends at 34695587.4 -- previous timestamp adjusted: was 34702260
+"
+45_06_coderAR_final.cha,31554,34731810_34732810,"%xcom:	this seems to refer to underpants?
+"
+45_06_coderAR_final.cha,32624,35310610_35311630,"%com:	begin skip
+"
+45_06_coderAR_final.cha,32971,35634700_35635870,"%com:	end skip
+"
+45_06_coderAR_final.cha,33119,35793550_35794350,"%com:	begin skip
+"
+45_06_coderAR_final.cha,33200,35856120_35856920,"%xcom:	end skip
+"
+45_06_coderAR_final.cha,33274,35896700_35898620,"%com:	begin skip
+"
+45_06_coderAR_final.cha,33410,36056570_36060090,"%com:	end skip
+"
+45_06_coderAR_final.cha,33474,36106320_36107500,"%com:	end skip
+"
+45_06_coderAR_final.cha,34263,36660830_36661830,"%xcom:	begin skip
+"
+45_06_coderAR_final.cha,34408,36784040_36785110,"%com:	end skip
+"
+45_06_coderAR_final.cha,34436,36796990_36798800,"%com:	begin skip
+"
+45_06_coderAR_final.cha,34956,37157730_37158860,"%xcom:	end skip
+"
+45_06_coderAR_final.cha,39004,39847270_39848500,"%xcom:	Shaelise ended here
+"

@@ -5,6 +5,7 @@ import itertools
 import re
 
 start_dir = ""
+output_path = ""
 
 interval_regx = re.compile("(\x15\d+_\d+)")
 
@@ -54,7 +55,7 @@ def reverse_interval_lookup(buffer):
             return temp_interval_string
 
 def output_comment_csv(comments):
-    with open("filtered_comments_complete_subjectfiles.csv", "wb") as file:
+    with open(output_path, "wb") as file:
         writer = csv.writer(file)
         writer.writerow(["filename", "line_num", "timestamp", "comment"])
         writer.writerows(comments)
@@ -85,6 +86,7 @@ def walk_tree():
 if __name__ == "__main__":
 
     start_dir = sys.argv[1]
+    output_path = sys.argv[2]
 
     walk_tree()
     # all_comments = parse_comments("data/14_09_newclan_merged.cha")

@@ -70,14 +70,32 @@ def find_personal_info():
     with open(csv_file, "rU") as input:
         reader = csv.reader(input)
         reader.next()
-        with open("clan_personalinfo_comments.csv", "wb") as output:
+        with open("personal_info_comments_2-18-16.csv", "wb") as output:
             writer = csv.writer(output)
             writer.writerow(["file", "linenum", "timestamp", "comment"])
             for row in reader:
+                print row
                 if any(x in row[3] for x in personal_string):
                     writer.writerow(row)
                     personal_clans.append(row[0])
-            with open("list_personal_clanfiles.csv", "wb") as clan_list:
+            with open("list_personal_clanfiles_2-18-16.csv", "wb") as clan_list:
+                clan_list.write("file\n")
+                for file in set(personal_clans):
+                    clan_list.write(file+"\n")
+
+def find_personal_info_byline():
+    with open("complete_comments_subjectfiles_2-18-16.csv", "rU") as input:
+        # reader = csv.reader(input)
+        # reader.next()
+        with open(csv_file, "wb") as output:
+            writer = csv.writer(output)
+            writer.writerow(["file", "linenum", "timestamp", "comment"])
+            for line in input:
+                line = line.split(",")
+                if any(x in line[3] for x in personal_string):
+                    writer.writerow(line)
+                    personal_clans.append(line[0])
+            with open("list_personal_clanfiles_2-18-16.csv", "wb") as clan_list:
                 clan_list.write("file\n")
                 for file in set(personal_clans):
                     clan_list.write(file+"\n")
@@ -90,7 +108,7 @@ def generate_nopersonalinfo_files():
         print "new: {}".format(prefix)
 
         personal_dictionary[prefix[0]][prefix[1]] = "**PI**"
-    with open("clan_personalinfo_table.csv", "wb") as table:
+    with open("clan_personalinfo_table_with_outliers.csv", "wb") as table:
         writer = csv.writer(table)
         writer.writerow(["subject-visit", "06", "07", "08", "09", "10",
                          "11", "12", "13", "14", "15", "16", "17", "18"])
@@ -201,7 +219,7 @@ def list_of_all_files():
 if __name__ == "__main__":
     csv_file = sys.argv[1]
     all_files = list_of_all_files()
-    print all_files
+    #print all_files
     print len(all_files)
     #filter_spacing()
     #find_duplicates()
