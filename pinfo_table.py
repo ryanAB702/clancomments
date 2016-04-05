@@ -36,6 +36,7 @@ def find_duplicates():
     global all_files
     with open(csv_file, "rU") as file:
         with open("filter_set.txt", "wb") as output:
+            filter_set_file = "filter_set.txt"
             reader = csv.reader(file)
             reader.next()
             for row in reader:
@@ -66,12 +67,12 @@ def find_bak_files():
                     writer.writerow(row)
 
 
-def filter_spacing():
-    with open(csv_file, "rU") as file:
-        reader = csv.reader(file)
-        reader.next()
-        for row in reader:
-            print row
+# def filter_spacing():
+#     with open(csv_file, "rU") as file:
+#         reader = csv.reader(file)
+#         reader.next()
+#         for row in reader:
+#             print row
 
 def find_personal_info():
     with open(csv_file, "rU") as input:
@@ -232,7 +233,6 @@ if __name__ == "__main__":
     all_files = list_of_all_files()
     # #print all_files
     # print len(all_files)
-    # #filter_spacing()
     # find_duplicates()
     # count_all_files()
     # filter_set_file = sys.argv[1]
