@@ -4,7 +4,7 @@ import os
 
 import collections
 
-csv_file = ""
+filtered_csv = ""
 filter_set_file = ""
 
 all_files = []
@@ -32,106 +32,29 @@ def init_personalinfo_dictionary():
         personal_dictionary.append(["npi"]*13)
 
 
-def find_duplicates():
-    global all_files
-    with open(csv_file, "rU") as file:
-        with open("filter_set.txt", "wb") as output:
-            filter_set_file = "filter_set.txt"
-            reader = csv.reader(file)
-            reader.next()
-            for row in reader:
-                all_files.append(row[0])
-            file_set = set(all_files)
-            for element in file_set:
-                output.write(element + "\n")
+def fill_list_of_personal_clans():
 
-
-def count_all_files():
-    counter = collections.Counter(all_files)
-    with open("counted_files", "wb") as file:
-        file.write(str(counter))
-
-
-def find_bak_files():
-    with open(filter_set_file, "rU") as file:
-        reader = csv.reader(file)
+    with open(filtered_csv, "rU") as personal_comms:
+        reader = csv.reader(personal_comms)
         reader.next()
-        with open("bak_removed.csv", "wb") as output:
-            writer = csv.writer(output)
-            writer.writerow(["filename","line_num","timestamp","comment"])
-            for row in reader:
-                if ".bak" in row[0]:
-                    print row
-                    continue
-                else:
-                    writer.writerow(row)
-
-
-# def filter_spacing():
-#     with open(csv_file, "rU") as file:
-#         reader = csv.reader(file)
-#         reader.next()
-#         for row in reader:
-#             print row
-
-def find_personal_info():
-    with open(csv_file, "rU") as input:
-        reader = csv.reader(input)
-        reader.next()
-        with open("personal_info_comments_2-26-16.csv", "wb") as output:
-            writer = csv.writer(output)
-            writer.writerow(["file", "linenum", "timestamp", "comment"])
-            for row in reader:
-                print row
-                if any(x in row[3] for x in personal_string):
-                    writer.writerow(row)
-                    personal_clans.append(row[0])
-            with open("list_personal_clanfiles_2-26-16.csv", "wb") as clan_list:
-                clan_list.write("file\n")
-                for file in set(personal_clans):
-                    clan_list.write(file+"\n")
-
-
-def find_personal_info_byline():
-    with open("complete_comments_subjectfiles_2-26-16.csv", "rU") as input:
-        # reader = csv.reader(input)
-        # reader.next()
-        with open(csv_file, "wb") as output:
-            writer = csv.writer(output)
-            writer.writerow(["file", "linenum", "timestamp", "comment"])
-            for line in input:
-                line = line.split(",")
-                if any(x in line[3] for x in personal_string):
-                    writer.writerow(line)
-                    personal_clans.append(line[0])
-            with open("list_personal_clanfiles_2-26-16.csv", "wb") as clan_list:
-                clan_list.write("file\n")
-                for file in set(personal_clans):
-                    clan_list.write(file+"\n")
-
+        for row in reader:
+            personal_clans.append(row[0])
 
 def generate_nopersonalinfo_files():
     for file in set(personal_clans):
         prefix = file[0:5].split("_")
-        print "original: {}".format(prefix)
+        #print "original: {}".format(prefix)
         prefix = [int(prefix[0]), prefix_to_array(prefix[1])]
-        print "new: {}".format(prefix)
+        #print "new: {}".format(prefix)
 
         personal_dictionary[prefix[0]][prefix[1]] = "pi"
-    with open("clan_personalinfo_table.csv", "wb") as table:
+    with open(output_file, "wb") as table:
         writer = csv.writer(table)
         writer.writerow(["subject-visit", "06", "07", "08", "09", "10",
                          "11", "12", "13", "14", "15", "16", "17", "18"])
         for index, subject in enumerate(personal_dictionary[1:]):
             writer.writerow([index+1] + subject)
 
-
-
-def check_if_file_exists(prefix):
-    for file in list_of_all_files():
-        if prefix in file:
-            return True
-    return False
 
 def fill_pidictionary_with_nofile():
     subj_prefix = ""
@@ -140,7 +63,7 @@ def fill_pidictionary_with_nofile():
     nofile_count = 0
     all_files = list_of_all_files()
     for i, subject in enumerate(personal_dictionary[1:]):
-        print "i: {}".format(i)
+        #print "i: {}".format(i)
         for j, visit in enumerate(subject):
             if i <9:
                 subj_prefix = '0'+str(i+1)
@@ -153,12 +76,12 @@ def fill_pidictionary_with_nofile():
 
 
             if not any(prefix in x for x in all_files):
-                print "prefix: {}".format(subj_prefix+"_"+visit_prefix)
-                print "no file"
+                #print "prefix: {}".format(subj_prefix+"_"+visit_prefix)
+                #print "no file"
                 personal_dictionary[i+1][j] = "nf"
                 nofile_count += 1
 
-    print "\n\nnofile_count: {}".format(nofile_count)
+    #print "\n\nnofile_count: {}".format(nofile_count)
 
 
 def prefix_to_array(prefix):
@@ -219,7 +142,7 @@ def array_to_prefix(array):
 
 def list_of_all_files():
     files = []
-    with open(csv_file, "rU") as file:
+    with open(unfiltered_csv, "rU") as file:
         reader = csv.reader(file)
         reader.next()
         for row in reader:
@@ -229,17 +152,15 @@ def list_of_all_files():
 
 
 if __name__ == "__main__":
-    csv_file = sys.argv[1]
+
+    unfiltered_csv = sys.argv[1]
+    filtered_csv = sys.argv[2]
+    output_file = sys.argv[3]
     all_files = list_of_all_files()
-    # #print all_files
-    # print len(all_files)
-    # find_duplicates()
-    # count_all_files()
-    # filter_set_file = sys.argv[1]
-    # find_bak_files()
 
 
+    fill_list_of_personal_clans()
     init_personalinfo_dictionary()
-    find_personal_info()
+
     fill_pidictionary_with_nofile()
     generate_nopersonalinfo_files()
