@@ -7,7 +7,7 @@ This is a collection of scripts for pulling out all the comments from a collecti
 #### clancomments.py
 
 ```bash
-$: python clancomments.py /path/to/Subject_Files
+$: python clancomments.py /path/to/Subject_Files  output_file.csv
 ```
 
 This will generate a csv file with all the comments found in each .cha file.
