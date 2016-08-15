@@ -7,8 +7,11 @@ This is a collection of scripts for pulling out all the comments from a collecti
 #### clancomments.py
 
 ```bash
-$: python clancomments.py /path/to/Subject_Files  output_file.csv
+$: python clancomments.py /path/to/folder  output_file.csv [--subj-files]
 ```
+
+The --subj-files flag is optional. Only use that flag if /path/to/folder is Subject_Files. Otherwise, leave it out
+when passing in a flat folder full of CLAN  files. 
 
 This will generate a csv file with all the comments found in each .cha file.
 
