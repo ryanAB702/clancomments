@@ -19,6 +19,7 @@ def parse_comments(clan_file):
         last_buffer = None
 
         curr_index = 0
+        last_line_was_comment = False
         for index, lines in enumerate(itertools.izip_longest(*[file]*7)):
             for line_index, line in enumerate(lines):
                 temp_comment = [None, None, None, None] # (index, timestamp, comment)
@@ -28,6 +29,7 @@ def parse_comments(clan_file):
                 curr_index = 7*index+line_index
                 #print "curr_index: {}".format(curr_index)
                 if line.startswith("%com:") or line.startswith("%xcom:"):
+                    last_line_was_comment = True
                     temp_comment[0] = filename
                     temp_comment[1] = curr_index
                     temp_comment[3] = line
@@ -40,6 +42,13 @@ def parse_comments(clan_file):
 
                     temp_comment[2] = interval_string
                     comments.append(temp_comment)
+                elif line.startswith("\t") and last_line_was_comment:
+                    last_comment = comments[-1]
+                    last_comment[3] = last_comment[3].replace("\n", " ")
+                    last_comment[3] += line.replace('\n', " ")
+                    comments[-1] = last_comment
+                else:
+                    last_line_was_comment = False
             last_buffer = lines
     return comments
 
