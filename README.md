@@ -34,3 +34,5 @@ $: python pinfo_table.py unfiltered_comments.csv filter_py_output.csv
 This will generate a table filled with different values based on the personal info status of every subject/visit file.
 
 You should pass it the unfiltered comments csv and the output of the filter_pinfo.py script (all comments filtered down to just the personal info comments).
+
+test
