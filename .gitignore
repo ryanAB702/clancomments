@@ -6,3 +6,5 @@ old_output
 ccout
 data
 pinfo_table.csv
+*.csv
+.DS_Store
